@@ -61,7 +61,7 @@ public class TestFastJson {
 		
 //		System.out.println(jsonTea);
 		Teacher tea = JSON.parseObject(jsonTea, new TypeReference<Teacher>() {});
-		System.out.println(tea.toString());
+		System.out.println(tea);
 		
 	}
 
